@@ -7,7 +7,7 @@ const Experience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
+      className="pt-20 w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
       <div>
         <div className="flex flex-col gap-4">
